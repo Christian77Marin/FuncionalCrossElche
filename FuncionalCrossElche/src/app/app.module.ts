@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { InstalacionesComponent } from './component/instalaciones/instalaciones.component';
 import { EntrenadorpersonalComponent } from './component/entrenadorpersonal/entrenadorpersonal.component';
 import { ContactoComponent } from './component/contacto/contacto.component';
+import { HeaderComponent } from './component/header/header.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { ContactoComponent } from './component/contacto/contacto.component';
     InstalacionesComponent,
     EntrenadorpersonalComponent,
     ContactoComponent,
+    HeaderComponent,
 
   ],
   imports: [

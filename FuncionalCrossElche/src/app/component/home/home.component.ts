@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+
+  ngOnInit(){
+    window.scrollTo(0,0)
+  }
 }
