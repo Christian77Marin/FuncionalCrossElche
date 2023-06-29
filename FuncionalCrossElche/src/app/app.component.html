@@ -1,0 +1,17 @@
+<header>
+  <ul>
+      <li><a [routerLink]="['/Inicio']" [routerLinkActive]="['actived']">Inicio</a></li>
+      <li><a [routerLink]="['/Instalaciones-Servicios']" [routerLinkActive]="['actived']">Instalaciones y Servicio</a></li>
+      <li id="logo"><a [routerLink]="['/inicio']"><img src="../assets/img/LogoFuncionalCrossFavicon.png" alt=""></a></li>
+      <li><a [routerLink]="['/EntrenadorPersonal']" [routerLinkActive]="['actived']">Entrenador Personal</a></li>
+      <li><a [routerLink]="['/Contacto']" [routerLinkActive]="['actived']">Contacto</a></li>
+  </ul>
+</header>
+
+<section id="content">
+  <router-outlet></router-outlet>
+</section>
+
+<footer>
+  Web creada por Christian Marin
+</footer>

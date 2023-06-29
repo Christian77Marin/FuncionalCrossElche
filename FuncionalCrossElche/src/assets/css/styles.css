@@ -1,0 +1,154 @@
+/*Importar las fuentes*/
+@font-face {
+    font-family: "yanone";
+    src: url(fonts/yanone.ttf);
+}
+
+@font-face {
+    font-family: "finger";
+    src: url(fonts/finger.ttf);
+}
+
+@font-face {
+    font-family: "titilium";
+    src: url(fonts/titilium.ttf);
+}
+
+@font-face {
+    font-family: "kanit";
+    src: url(fonts/Kanit-Regular.ttf);
+}
+
+@font-face {
+    font-family: "RobotoL";
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "RobotoR";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: "Agdasima";
+    src: url(fonts/Agdasima-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: "AgdasimaBold";
+    src: url(fonts/Agdasima-Bold.ttf);
+}
+
+
+
+/*Estilos Generales*/
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-family: "yanone";
+    font-size: 20px;
+    background-color: rgb(255, 239, 0);
+}
+
+.clearfix{
+    float:none;
+    clear:both;
+}
+
+/*Barra de navegacion / header*/
+
+header{
+    display:block;
+    width:100%;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.95);
+    position:fixed;
+    text-transform: uppercase;
+    font-family: AgdasimaBold;
+    font-size: 20px;
+}
+
+
+
+header ul{
+    display:block;
+    width:40%;
+    height: inherit;
+    margin-left: 32%;
+    margin-top: -3px;
+}
+
+
+
+header ul li{
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 88px;
+}
+
+header a{
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+    height:inherit;
+    text-decoration: none;
+    color: white;
+    transition: all 500ms;
+}
+
+header a:hover,.actived{
+    background: rgba(199, 186, 9, 0.6);
+}
+
+#logo a:hover{
+    background:black ;
+}
+
+
+#logo img{
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+    transition: transform 500ms;
+}
+
+header #logo img:hover{
+    background: transparent;
+    transform: scale(1.3,1.3);
+}
+
+/*Contenedor Principal*/
+
+#content{
+    min-height: 1000px;
+    height: auto;
+    width: 95%;
+    margin: 0px auto;
+    box-shadow: 0px -20px 20px 10px  black;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    background: rgba(0, 0, 0);
+    padding-top:120px;
+    color: rgb(255, 239, 0);
+    font-family: Agdasima;
+}
+
+/*Pie de pagina*/
+
+footer{
+    width: 75%;
+    margin: 0px auto;
+    padding-top: 20px;
+    color:rgba(0,0,0,0.5);
+}
+
+
