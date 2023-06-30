@@ -1,12 +1,341 @@
-.foto-inicio{
-
+.foto-inicio {
 
     width: 100%;
-    height: 100vh;
-    background-image:url("../../../assets/img/FotoInicio-transformed.jpeg");
-    background-position: -225px -800px;
-
+    height: 1170px;
+    background-image: url("../../../assets/img/FotoInicio.png");
+    background-position: -40px -57px;
     background-size: 2000px;
     background-repeat: no-repeat;
 
+
+}
+
+.svg{
+    position: absolute;
+    top: 870px;
+    right:46%;
+    z-index: 0;
+}
+
+.svg:hover{
+    cursor: pointer;
+}
+
+.container-inicio {
+    padding-top: 200px;
+    padding-left: 12%;
+}
+
+.texto-principal {
+    font-size: 48px;
+    font-family: "ReemKufiFunBold";
+
+}
+
+.texto-secundario {
+    padding-left: 3px;
+    font-family: NimbusSans;
+    letter-spacing: 8.5px;
+}
+
+.texto-bienvenida {
+    padding-top: 200px;
+    width: 500px;
+    padding-left: 80px;
+
+    font-size: 20px;
+    font-family: MontserratB;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+
+.transicion {
+    height: 214px;
+    width: 100%;
+    background-image: url(../../../assets/img/Transicion.png);
+    background-position: 0px 248px;
+}
+
+.resto-inicio {
+    position: relative;
+    background: rgb(255, 239, 0);
+    min-height: 1300px;
+    color:black;
+}
+
+.resto-inicio .img1 {
+    width: 300px;
+    height: 200px;
+    box-shadow:
+        2.2px 1.3px 1.3px rgba(0, 0, 0, 0.037),
+        5.4px 3.1px 3.2px rgba(0, 0, 0, 0.053),
+        10.1px 5.9px 6px rgba(0, 0, 0, 0.065),
+        18.1px 10.5px 10.7px rgba(0, 0, 0, 0.077),
+        33.8px 19.6px 20.1px rgba(0, 0, 0, 0.093),
+        81px 47px 48px rgba(0, 0, 0, 0.13);
+}
+
+.resto-inicio .img2{
+    width: 300px;
+    height: 200px;
+    box-shadow:
+  -2.2px 1.3px 1.3px rgba(0, 0, 0, 0.037),
+  -5.4px 3.1px 3.2px rgba(0, 0, 0, 0.053),
+  -10.1px 5.9px 6px rgba(0, 0, 0, 0.065),
+  -18.1px 10.5px 10.7px rgba(0, 0, 0, 0.077),
+  -33.8px 19.6px 20.1px rgba(0, 0, 0, 0.093),
+  -81px 47px 48px rgba(0, 0, 0, 0.13);
+}
+
+.titulo-resto-inicio{
+    text-align: center;
+    font-family: "MontserratB";
+    padding-top: 10px;
+}
+
+.titulo-resto-inicio span{
+    font-size: 30px;
+    font-family: "ReemKufiFunBold";
+    text-decoration: underline;
+}
+
+
+.primera-foto {
+    display:grid;
+    grid-template-columns: 1fr 600px ;
+
+    position: absolute;
+    top: 100px;
+    left: 200px;
+
+    background-color: transparent;
+    border: none;
+
+}
+
+.parrafo{
+   text-align: right;
+}
+
+
+.primera-foto .img{
+    grid-column-start:1;
+    grid-column-end:1;
+}
+
+.primera-foto .parrafo{
+    grid-column-start:2;
+    grid-column-end:2;
+
+    padding-left: 20px;
+
+}
+
+.primera-foto .parrafo .texto-parrafo{
+
+    padding-left: 10px;
+    padding-top: 20px;
+
+    text-align: left;
+
+}
+
+.primera-foto .parrafo .titulo-parrafo{
+
+    padding-left: 10px;
+    padding-top: 20px;
+
+    text-align: left;
+
+}
+
+.titulo-parrafo{
+    font-family: AgdasimaBold;
+    font-size: 30px;
+}
+
+.texto-parrafo{
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.segunda-foto {
+    display:grid;
+    grid-template-columns: 600px 1fr;
+    position: absolute;
+    top: 400px;
+    right: 200px;
+}
+
+.segunda-foto .img{
+    grid-column-start:2;
+    grid-column-end:2;
+}
+
+.segunda-foto .parrafo{
+    grid-column-start:1;
+    grid-column-end:1;
+    margin-top: -210px;
+
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+
+
+
+
+
+.tercera-foto {
+    display:grid;
+    grid-template-columns: 1fr 600px;
+    position: absolute;
+    top: 700px;
+    left: 200px;
+}
+
+
+.tercera-foto .img{
+    grid-column-start:1;
+    grid-column-end:1;
+}
+
+.tercera-foto .parrafo{
+    grid-column-start:2;
+    grid-column-end:2;
+
+    padding-left: 20px;
+
+}
+
+
+.tercera-foto .parrafo .texto-parrafo{
+    padding-left: 10px;
+    padding-top: 20px;
+
+    text-align: left;
+}
+
+.tercera-foto .parrafo .titulo-parrafo{
+
+    padding-left: 10px;
+    padding-top: 20px;
+
+    text-align: left;
+
+}
+
+
+
+
+.cuarta-foto {
+    display:grid;
+    grid-template-columns: 600px 1fr;
+    position: absolute;
+    top: 1000px;
+    right: 200px;
+}
+
+.cuarta-foto .img{
+    grid-column-start:2;
+    grid-column-end:2;
+}
+
+.cuarta-foto .parrafo{
+    grid-column-start:1;
+    grid-column-end:1;
+    margin-top: -210px;
+
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+/*.segunda-foto {
+    display:grid;
+    grid-template-columns: 600px 1fr;
+    position: absolute;
+    top: 400px;
+    right: 200px;
+}
+
+.segunda-foto .img{
+    grid-column-start:2;
+    grid-column-end:2;
+}
+
+.segunda-foto .parrafo{
+    grid-column-start:1;
+    grid-column-end:1;
+    margin-top: -210px;
+
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft2 {
+    0% {
+        transform: translateX(-200%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(200%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-slide {
+    animation: slideInFromLeft 0.5s ease-out;
+}
+
+.animate-slide-right{
+    animation: slideInFromRight 0.5s ease-out;
+}
+
+.animate-slide2 {
+    animation: slideInFromLeft2 1s ease-out;
 }

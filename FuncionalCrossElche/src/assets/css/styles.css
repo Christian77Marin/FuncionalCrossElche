@@ -41,6 +41,52 @@
     src: url(fonts/Agdasima-Bold.ttf);
 }
 
+@font-face {
+    font-family: "ArchivoBold";
+    src: url(fonts/Archivo-Bold.ttf);
+}
+
+@font-face {
+    font-family: "ReemKufiFunBold";
+    src: url(fonts/ReemKufiFun-Bold.ttf);
+}
+
+@font-face {
+    font-family: "ReemKufiFunMedium";
+    src: url(fonts/ReemKufiFun-Medium.ttf);
+}
+
+@font-face {
+    font-family: "ReemKufiFunRegular";
+    src: url(fonts/ReemKufiFun-Regular.ttf);
+}
+
+@font-face {
+    font-family: "ReemKufiFunSemiBold";
+    src: url(fonts/ReemKufiFun-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "NimbusSans";
+    src: url(fonts/NimbusSanL-Reg.otf);
+}
+
+@font-face {
+    font-family: "MontserratR";
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "MontserratL";
+    src: url(fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: "MontserratB";
+    src: url(fonts/Montserrat-Bold.ttf);
+}
+
+
 
 
 /*Estilos Generales*/
@@ -74,9 +120,6 @@ body{
     height: auto;
     width: 100%;
     margin: 0px auto;
-    box-shadow:1px 1px 20px 10px black;
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;
     background: rgba(0, 0, 0);
     
     color: rgb(255, 239, 0);
@@ -85,11 +128,5 @@ body{
 
 /*Pie de pagina*/
 
-footer{
-    width: 75%;
-    margin: 0px auto;
-    padding-top: 20px;
-    color:rgba(0,0,0,0.5);
-}
 
 

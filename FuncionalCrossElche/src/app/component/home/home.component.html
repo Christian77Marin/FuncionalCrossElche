@@ -1,2 +1,89 @@
+<div class="foto-inicio">
 
-<div class="foto-inicio">s</div>
+    <div class="container-inicio">
+        <div class="texto-principal" *ngIf="showTextInicial">
+            <p class="animate-slide">FUNCIONAL CROSS</p>
+        </div>
+
+        <div class="texto-secundario" *ngIf="showTextInicial">
+            <p class="animate-slide">ENTRENAMIENTO PERSONAL</p>
+        </div>
+
+        <div class="texto-bienvenida">
+            <p class="animate-slide2"> Centro de alto rendimiento deportivo que cuenta con los sistemas y materiales de
+                entrenamiento más innovadores y eficaces en el ámbito del deporte.</p>
+        </div>
+    </div>
+
+    <svg (click)="scrollToInicio()" xmlns="http://www.w3.org/2000/svg" class="svg" width="48" height="48"
+        viewBox="0 0 24 24">
+        <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"
+            style="fill: rgb(255, 255, 255); transition: none 0s ease 0s; text-align: inherit; line-height: 26px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 300; font-size: 15px; stroke-dashoffset: 0px; stroke-dasharray: 0px; stroke-width: 0px; stroke: rgba(255, 255, 255, 0);">
+        </path>
+    </svg>
+</div>
+
+
+<div class="transicion">
+
+</div>
+
+<div class="resto-inicio">
+
+    <div class="titulo-resto-inicio">
+        EN <span>FUNCIONAL CROSS</span> SOMOS <span>ESPECIALSTAS</span> EN
+    </div>
+
+    <div class="primera-foto animate-slide" *ngIf="showfirstPhoto">
+        <div class="img">
+            <img class="img2" src="../../../assets/img/ruedaCrossfit.jpeg" alt="">
+        </div>
+        <div class="parrafo">
+            <p class="titulo-parrafo">ENTRENAMIENTO PERSONAL</p>
+            <p class="texto-parrafo">El entrenamiento personal es un enfoque personalizado de acondicionamiento físico
+                que se adapta a metas individuales. Con la guía de un entrenador, se mejora la fuerza, resistencia,
+                flexibilidad y coordinación de forma personalizada. Maximiza el potencial físico y ofrece resultados
+                efectivos.</p>
+        </div>
+    </div>
+
+    <div class="segunda-foto animate-slide-right" *ngIf="showSecondPhoto">
+        <div class="img">
+            <img class="img1" src="../../../assets/img/FuncionalCross.jpeg" alt="">
+        </div>
+        <div class="parrafo">
+            <p class="titulo-parrafo">FUNCIONAL CROSS</p>
+            <p class="texto-parrafo">
+                Método de entrenamiento que fusiona el entrenamiento funcional y el crossfit aplicados al entrenamiento
+                personal, desarrollado por Iván Altamirano. Proporciona beneficios como el fortalecimiento de todos los
+                músculos, mejor rendimiento físico, coordinación y agilidad, así como un alto gasto calórico. Además,
+                presenta un riesgo mínimo de lesiones.</p>
+        </div>
+    </div>
+
+    <div class="tercera-foto animate-slide" *ngIf="showThirdPhoto">
+        <div class="img">
+            <img class="img2" src="../../../assets/img/Proteinas.jpg" alt="">
+        </div>
+        <div class="parrafo">
+            <p class="titulo-parrafo">SUPLEMENTACIÓN DEPORTIVA</p>
+            <p class="texto-parrafo">
+                Ofrecemos una amplia gama de suplementos deportivos de calidad de la marca Vitobest. Con laboratorio
+                propio en España, garantizamos productos de alta calidad a precios competitivos. Nuestra selección
+                incluye proteínas, recuperadores, carbohidratos y más, para ayudarte a optimizar tus resultados
+                deportivos.</p>
+        </div>
+    </div>
+
+    <div class="cuarta-foto animate-slide-right" *ngIf="showFourthPhoto">
+        <div class="img">
+            <img class="img1" src="../../../assets/img/AsesoramientoNutricional.png" alt="">
+        </div>
+        <div class="parrafo">
+            <p class="titulo-parrafo">ASESORAMIENTO NUTRICIONAL</p>
+            <p class="texto-parrafo">La importancia de alimentarse de manera adecuada es algo que no paramos de escuchar
+                en todos los medios. Por ello, apoyaremos nuestro trabajo de entrenamiento en el proporcionamiento de
+                una serie de consejos y hábitos nutricionales como verdadera herramienta de cambio.</p>
+        </div>
+    </div>
+</div>

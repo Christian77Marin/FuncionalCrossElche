@@ -10,6 +10,7 @@ import { InstalacionesComponent } from './component/instalaciones/instalaciones.
 import { EntrenadorpersonalComponent } from './component/entrenadorpersonal/entrenadorpersonal.component';
 import { ContactoComponent } from './component/contacto/contacto.component';
 import { HeaderComponent } from './component/header/header.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { HeaderComponent } from './component/header/header.component';
     EntrenadorpersonalComponent,
     ContactoComponent,
     HeaderComponent,
+    FooterComponent,
 
   ],
   imports: [
