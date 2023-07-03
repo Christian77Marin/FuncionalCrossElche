@@ -1,18 +1,17 @@
-.footer{
+.footer {
 
     width: 80%;
-    height: 300px;
+    height: 350px;
     margin-left: 10%;
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    color: rgb(255, 239, 0);
 }
 
-.footer div{
-    
-}
 
-.footer .div1{
+
+.footer .div1 {
     padding-right: 40px;
     padding-left: 40px;
     font-size: 20px;
@@ -21,11 +20,192 @@
     line-height: 30px;
 }
 
-.footer .div1 img{
+.footer .div1 img {
     margin-left: 40%;
     margin-top: 35px;
     margin-bottom: 10px;
     width: 80px;
     height: 80px;
 
+}
+
+.footer .div2 {
+
+    padding-left: 10%;
+    padding-top: 60px;
+}
+
+.footer .div2 .ubicacion {
+
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+
+.footer .div2 .ubicacion .img-ubicacion img {
+    width: 24px;
+    padding-top: 10px;
+}
+
+
+.footer .div2 .ubicacion .texto-ubicacion {
+    margin-left: 10px;
+
+}
+
+.footer .div2 .ubicacion .texto-ubicacion a {
+    text-decoration: none;
+    color: rgb(255, 239, 0);
+
+}
+
+/*HORARIO*/
+
+.footer .div2 .horario {
+
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 19px;
+
+}
+
+
+.footer .div2 .horario .img-horario img {
+    width: 24px;
+
+}
+
+
+.footer .div2 .horario .texto-horario {
+    margin-left: 10px;
+
+}
+
+.footer .div2 .horario .texto-horario span {
+    font-family: AgdasimaBold
+}
+
+/*TELEFONO*/
+
+.footer .div2 .telefono {
+
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+
+.footer .div2 .telefono .img-telefono img {
+    width: 24px;
+
+}
+
+
+.footer .div2 .telefono .texto-telefono {
+    margin-left: 10px;
+}
+
+.footer .div2 .telefono .texto-telefono a {
+    color: rgb(255, 239, 0);
+    text-decoration: none;
+}
+
+
+/*email*/
+
+.footer .div2 .email {
+
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+
+.footer .div2 .email .img-email img {
+    width: 24px;
+
+}
+
+
+.footer .div2 .email .texto-email {
+    margin-left: 10px;
+
+}
+
+.footer .div2 .email .texto-email a {
+    color: rgb(255, 239, 0);
+    text-decoration: none;
+}
+
+
+
+
+/*TERCERA PARTE*/
+
+.footer .div3 {
+
+    padding-left: 20%;
+    padding-top: 60px;
+
+}
+
+.img-atencioncliente img {
+    width: 24px;
+}
+
+#atencion-cliente-footer {
+    padding-top: 20px;
+    padding-left: 12%;
+}
+
+#atencion-cliente-footer .LunJue {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 24px 1fr;
+}
+
+#atencion-cliente-footer .LunJue .texto {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+/*Viernes*/
+
+#atencion-cliente-footer .Viernes {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 24px 1fr;
+}
+
+#atencion-cliente-footer .Viernes .texto {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+
+/*FinDeSemana*/
+#atencion-cliente-footer .FinDeSemana {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 24px 1fr;
+}
+
+#atencion-cliente-footer .FinDeSemana .texto {
+    padding-left: 20px;
+}
+
+#atencion-cliente-footer span{
+    font-family: AgdasimaBold;
+    
+    
 }

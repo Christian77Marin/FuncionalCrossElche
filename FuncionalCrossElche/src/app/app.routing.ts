@@ -7,6 +7,7 @@ import { EntrenadorpersonalComponent } from "./component/entrenadorpersonal/entr
 import { ContactoComponent } from "./component/contacto/contacto.component";
 
 const appRoutes : Routes = [
+    {path:'', component: HomeComponent},
     {path:'Inicio', component: HomeComponent},
     {path:'Instalaciones-Servicios', component: InstalacionesComponent},
     {path:'EntrenadorPersonal', component: EntrenadorpersonalComponent},
