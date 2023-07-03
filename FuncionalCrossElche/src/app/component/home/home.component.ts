@@ -17,10 +17,10 @@ export class HomeComponent {
   @HostListener('window:scroll', [])
   onScroll() {
     const desiredPosition = 20; // Posición en la que debería aparecer el texto
-    const showfirstPhotoPosition = 900;
-    const showSecondPhotoPosition = 1100;
-    const showThirdPhotoPosition = 1300;
-    const showFourthPhotoPosition = 1500;
+    const showfirstPhotoPosition = 950;
+    const showSecondPhotoPosition = 1150;
+    const showThirdPhotoPosition = 1350;
+    const showFourthPhotoPosition = 1550;
     
     const currentPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
   
