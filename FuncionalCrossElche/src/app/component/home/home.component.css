@@ -10,14 +10,14 @@
 
 }
 
-.svg{
+.svg {
     position: absolute;
     top: 870px;
-    right:46%;
+    right: 46%;
     z-index: 0;
 }
 
-.svg:hover{
+.svg:hover {
     cursor: pointer;
 }
 
@@ -62,7 +62,7 @@
     position: relative;
     background: rgb(255, 239, 0);
     min-height: 1300px;
-    color:black;
+    color: black;
 }
 
 .resto-inicio .img1 {
@@ -77,25 +77,25 @@
         81px 47px 48px rgba(0, 0, 0, 0.13);
 }
 
-.resto-inicio .img2{
+.resto-inicio .img2 {
     width: 300px;
     height: 200px;
     box-shadow:
-  -2.2px 1.3px 1.3px rgba(0, 0, 0, 0.037),
-  -5.4px 3.1px 3.2px rgba(0, 0, 0, 0.053),
-  -10.1px 5.9px 6px rgba(0, 0, 0, 0.065),
-  -18.1px 10.5px 10.7px rgba(0, 0, 0, 0.077),
-  -33.8px 19.6px 20.1px rgba(0, 0, 0, 0.093),
-  -81px 47px 48px rgba(0, 0, 0, 0.13);
+        -2.2px 1.3px 1.3px rgba(0, 0, 0, 0.037),
+        -5.4px 3.1px 3.2px rgba(0, 0, 0, 0.053),
+        -10.1px 5.9px 6px rgba(0, 0, 0, 0.065),
+        -18.1px 10.5px 10.7px rgba(0, 0, 0, 0.077),
+        -33.8px 19.6px 20.1px rgba(0, 0, 0, 0.093),
+        -81px 47px 48px rgba(0, 0, 0, 0.13);
 }
 
-.titulo-resto-inicio{
+.titulo-resto-inicio {
     text-align: center;
     font-family: "MontserratB";
     padding-top: 10px;
 }
 
-.titulo-resto-inicio span{
+.titulo-resto-inicio span {
     font-size: 30px;
     font-family: "ReemKufiFunBold";
     text-decoration: underline;
@@ -103,8 +103,8 @@
 
 
 .primera-foto {
-    display:grid;
-    grid-template-columns: 1fr 600px ;
+    display: grid;
+    grid-template-columns: 1fr 600px;
 
     position: absolute;
     top: 100px;
@@ -115,25 +115,25 @@
 
 }
 
-.parrafo{
-   text-align: right;
+.parrafo {
+    text-align: right;
 }
 
 
-.primera-foto .img{
-    grid-column-start:1;
-    grid-column-end:1;
+.primera-foto .img {
+    grid-column-start: 1;
+    grid-column-end: 1;
 }
 
-.primera-foto .parrafo{
-    grid-column-start:2;
-    grid-column-end:2;
+.primera-foto .parrafo {
+    grid-column-start: 2;
+    grid-column-end: 2;
 
     padding-left: 20px;
 
 }
 
-.primera-foto .parrafo .texto-parrafo{
+.primera-foto .parrafo .texto-parrafo {
 
     padding-left: 10px;
     padding-top: 20px;
@@ -142,7 +142,7 @@
 
 }
 
-.primera-foto .parrafo .titulo-parrafo{
+.primera-foto .parrafo .titulo-parrafo {
 
     padding-left: 10px;
     padding-top: 20px;
@@ -151,33 +151,33 @@
 
 }
 
-.titulo-parrafo{
+.titulo-parrafo {
     font-family: AgdasimaBold;
     font-size: 30px;
 }
 
-.texto-parrafo{
+.texto-parrafo {
     padding-top: 10px;
     text-align: justify;
     font-size: 22px;
 }
 
 .segunda-foto {
-    display:grid;
+    display: grid;
     grid-template-columns: 600px 1fr;
     position: absolute;
     top: 400px;
     right: 200px;
 }
 
-.segunda-foto .img{
-    grid-column-start:2;
-    grid-column-end:2;
+.segunda-foto .img {
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 
-.segunda-foto .parrafo{
-    grid-column-start:1;
-    grid-column-end:1;
+.segunda-foto .parrafo {
+    grid-column-start: 1;
+    grid-column-end: 1;
     margin-top: -210px;
 
     padding-right: 20px;
@@ -190,7 +190,7 @@
 
 
 .tercera-foto {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 600px;
     position: absolute;
     top: 700px;
@@ -198,28 +198,28 @@
 }
 
 
-.tercera-foto .img{
-    grid-column-start:1;
-    grid-column-end:1;
+.tercera-foto .img {
+    grid-column-start: 1;
+    grid-column-end: 1;
 }
 
-.tercera-foto .parrafo{
-    grid-column-start:2;
-    grid-column-end:2;
+.tercera-foto .parrafo {
+    grid-column-start: 2;
+    grid-column-end: 2;
 
     padding-left: 20px;
 
 }
 
 
-.tercera-foto .parrafo .texto-parrafo{
+.tercera-foto .parrafo .texto-parrafo {
     padding-left: 10px;
     padding-top: 20px;
 
     text-align: left;
 }
 
-.tercera-foto .parrafo .titulo-parrafo{
+.tercera-foto .parrafo .titulo-parrafo {
 
     padding-left: 10px;
     padding-top: 20px;
@@ -232,21 +232,21 @@
 
 
 .cuarta-foto {
-    display:grid;
+    display: grid;
     grid-template-columns: 600px 1fr;
     position: absolute;
     top: 1000px;
     right: 200px;
 }
 
-.cuarta-foto .img{
-    grid-column-start:2;
-    grid-column-end:2;
+.cuarta-foto .img {
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 
-.cuarta-foto .parrafo{
-    grid-column-start:1;
-    grid-column-end:1;
+.cuarta-foto .parrafo {
+    grid-column-start: 1;
+    grid-column-end: 1;
     margin-top: -210px;
 
     padding-right: 20px;
@@ -332,10 +332,103 @@
     animation: slideInFromLeft 0.5s ease-out;
 }
 
-.animate-slide-right{
+.animate-slide-right {
     animation: slideInFromRight 0.5s ease-out;
 }
 
 .animate-slide2 {
     animation: slideInFromLeft2 1s ease-out;
 }
+
+
+@media (max-width: 1669px) {
+
+    .foto-inicio {
+
+        background-position: 35% -57px;
+
+    }
+
+}
+
+@media (max-width: 1569px) {
+
+    .foto-inicio {
+
+        background-position: 47% -57px;
+
+    }
+    .texto-bienvenida {
+        padding-top: 200px;
+    
+        padding-left: 30px;
+    
+    }
+}
+
+
+
+@media (max-width: 1425px) {
+
+
+    .texto-bienvenida {
+        padding-top: 200px;
+    
+        padding-left: 0px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1375px) {
+
+
+    .p-texto-bienvenida {
+     
+    
+        padding-right: 90px;
+       
+    }
+}
+
+@media (max-width: 1160px) {
+
+
+    .p-texto-bienvenida {
+     
+    
+        padding-right: 180px;
+        letter-spacing: 1px;
+       
+    }
+}
+
+
+@media (max-width: 1160px) {
+
+.foto-inicio{
+    background-image: url("../../../assets/img/FotoInicioMobile.png");
+    background-position: 47% 87px;
+}
+
+.p-texto-bienvenida {
+     
+    
+    padding-right: 250px;
+    letter-spacing: 1px;
+   
+}
+    
+}
+
+
+
+@media (max-width: 845px) {
+
+  
+    .p-texto-bienvenida {
+         
+        display:none;
+       
+    }
+        
+    }
