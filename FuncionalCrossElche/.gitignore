@@ -11,6 +11,10 @@
 npm-debug.log
 yarn-error.log
 
+**/.firebaserc
+
+# End of https://mrkandreev.name/snippets/gitignore-generator/#Firebase
+
 # IDEs and editors
 .idea/
 .project
