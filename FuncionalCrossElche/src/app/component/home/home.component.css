@@ -115,6 +115,7 @@
 
 }
 
+
 .parrafo {
     text-align: right;
 }
@@ -123,6 +124,7 @@
 .primera-foto .img {
     grid-column-start: 1;
     grid-column-end: 1;
+    padding-top: 26px;
 }
 
 .primera-foto .parrafo {
@@ -173,7 +175,11 @@
 .segunda-foto .img {
     grid-column-start: 2;
     grid-column-end: 2;
+    position: relative;
+    top:20px;
 }
+
+
 
 .segunda-foto .parrafo {
     grid-column-start: 1;
@@ -201,6 +207,7 @@
 .tercera-foto .img {
     grid-column-start: 1;
     grid-column-end: 1;
+    padding-top:26px;
 }
 
 .tercera-foto .parrafo {
@@ -242,6 +249,8 @@
 .cuarta-foto .img {
     grid-column-start: 2;
     grid-column-end: 2;
+    position: relative;
+    top:21px;
 }
 
 .cuarta-foto .parrafo {
@@ -390,20 +399,23 @@
     }
 }
 
-@media (max-width: 1160px) {
 
 
-    .p-texto-bienvenida {
-     
-    
-        padding-right: 180px;
-        letter-spacing: 1px;
-       
+@media (max-width: 1330px) {
+    .primera-foto,.tercera-foto{
+        left: 100px;
     }
+
+    .segunda-foto, .cuarta-foto{
+        right: 100px;
+    }
+
 }
 
 
 @media (max-width: 1160px) {
+
+  
 
 .foto-inicio{
     background-image: url("../../../assets/img/FotoInicioMobile.png");
@@ -419,6 +431,36 @@
 }
     
 }
+
+@media (max-width: 1116px) {
+
+  .primera-foto .parrafo, .tercera-foto .parrafo{
+    padding-right: 20%;
+  }
+
+  .segunda-foto .parrafo, .cuarta-foto .parrafo{
+    padding-left: 20%;
+  }
+ 
+}
+
+@media (max-width: 987px) {
+
+    .primera-foto .parrafo, .tercera-foto .parrafo{
+      padding-right: 30%;
+    }
+
+    .segunda-foto .parrafo, .cuarta-foto .parrafo{
+      padding-left: 30%;
+    }
+   
+  }
+
+  @media (max-width: 930px) {
+
+  /*REESCALAR*/
+   
+  }
 
 
 

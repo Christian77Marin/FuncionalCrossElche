@@ -1,11 +1,31 @@
 <header [style.backgroundColor]="headerBackgroundColor">
-<div class="menu-container">
-    <ul>
-        <li><a [routerLink]="['/Inicio']" [routerLinkActive]="['actived']">Inicio</a></li>
-        <li><a [routerLink]="['/Instalaciones-Servicios']" [routerLinkActive]="['actived']">Instalaciones y Servicio</a></li>
-        <li id="logo"><a [routerLink]="['/Inicio']"><img src="../assets/img/LogoFuncionalCrossFavicon.png" alt=""></a></li>
-        <li><a [routerLink]="['/EntrenadorPersonal']" [routerLinkActive]="['actived']">Entrenador Personal</a></li>
-        <li><a [routerLink]="['/Contacto']" [routerLinkActive]="['actived']">Contacto</a></li>
+    <div class="menu-container">
+        <ul>
+            <li><a [routerLink]="['/Inicio']" [routerLinkActive]="['actived']">Inicio</a></li>
+            <li><a [routerLink]="['/Instalaciones-Servicios']" [routerLinkActive]="['actived']">Instalaciones y
+                    Servicio</a></li>
+            <li id="logo"><a [routerLink]="['/Inicio']"><img src="../assets/img/LogoFuncionalCrossFavicon.png"
+                        alt=""></a></li>
+            <li><a [routerLink]="['/EntrenadorPersonal']" [routerLinkActive]="['actived']">Entrenador Personal</a></li>
+            <li><a [routerLink]="['/Contacto']" [routerLinkActive]="['actived']">Contacto</a></li>
+        </ul>
+    </div>
+</header>
+
+
+<section class="top-nav">
+    <div class="logo">
+        <a [routerLink]="['/Inicio']"><img src="../assets/img/LogoFuncionalCrossFavicon.png" alt=""></a>
+    </div>
+        <input id="menu-toggle" type="checkbox" [(ngModel)]="isChecked"/>
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+    <ul class="menu">
+        <li><a (click)="desmarcarCheckbox()" [routerLink]="['/Inicio']" [routerLinkActive]="['actived2']">Inicio</a></li>
+        <li><a (click)="desmarcarCheckbox()" [routerLink]="['/Instalaciones-Servicios']" [routerLinkActive]="['actived2']">Instalaciones y Servicio</a>
+        </li>
+        <li><a (click)="desmarcarCheckbox()" [routerLink]="['/EntrenadorPersonal']" [routerLinkActive]="['actived2']">Entrenador Personal</a></li>
+        <li><a (click)="desmarcarCheckbox()" [routerLink]="['/Contacto']" [routerLinkActive]="['actived2']">Contacto</a></li>
     </ul>
-</div>
-  </header>
+</section>

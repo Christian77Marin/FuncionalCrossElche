@@ -14,7 +14,18 @@ export class HomeComponent {
 
   
 
-  @HostListener('window:scroll', [])
+  screenWidth: number = 0;
+  screenHeight: number = 0;
+
+  
+
+  getScreenSize() {
+    this.screenWidth = window.innerWidth;
+    this.screenHeight = window.innerHeight; 
+  }
+
+
+  @HostListener('window:scroll')
   onScroll() {
     const desiredPosition = 20; // Posición en la que debería aparecer el texto
     const showfirstPhotoPosition = 950;
@@ -61,6 +72,7 @@ export class HomeComponent {
   ngOnInit(){
     window.scrollTo(0,0)
     this.showTextInicial = true;
+    this.getScreenSize();
   }
 
   scrollToInicio(){
