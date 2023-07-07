@@ -469,15 +469,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
     /*CARGARSE EL DISEÑO*/
 
 
@@ -667,6 +658,37 @@
 
 }
 
+@media (max-width: 580px) {
+    .primera-foto{
+        margin-bottom: 220px;
+    }
+
+    .segunda-foto{
+        margin-bottom: 270px;
+    }
+
+    .tercera-foto{
+        margin-bottom: 255px;
+    }
+
+    .cuarta-foto{
+        margin-bottom: 255px;
+    }
+
+    .resto-inicio{
+        height: 2300px;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .primera-foto,.segunda-foto,.tercera-foto,.cuarta-foto{
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+
+    
+}
 
 
 
@@ -674,6 +696,22 @@
 
 
 
+@media (max-width: 437px) {
+    .primera-foto,.segunda-foto,.tercera-foto,.cuarta-foto{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+}
+
+
+@media (max-width: 406px) {
+    .primera-foto,.segunda-foto,.tercera-foto,.cuarta-foto{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+}
 
 
 
