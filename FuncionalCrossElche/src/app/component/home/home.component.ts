@@ -1,4 +1,4 @@
-import { Component,HostListener, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,21 +7,21 @@ import { Component,HostListener, OnInit } from '@angular/core';
 })
 export class HomeComponent {
   public showTextInicial: boolean = false;
-  public showfirstPhoto:boolean = false;
-  public showSecondPhoto:boolean = false;
-  public showThirdPhoto:boolean = false;
-  public showFourthPhoto:boolean = false;
+  public showfirstPhoto: boolean = false;
+  public showSecondPhoto: boolean = false;
+  public showThirdPhoto: boolean = false;
+  public showFourthPhoto: boolean = false;
 
-  
+
 
   screenWidth: number = 0;
   screenHeight: number = 0;
 
-  
+
 
   getScreenSize() {
     this.screenWidth = window.innerWidth;
-    this.screenHeight = window.innerHeight; 
+    this.screenHeight = window.innerHeight;
   }
 
 
@@ -32,9 +32,9 @@ export class HomeComponent {
     const showSecondPhotoPosition = 1150;
     const showThirdPhotoPosition = 1350;
     const showFourthPhotoPosition = 1550;
-    
+
     const currentPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
-  
+
     if (currentPosition >= desiredPosition) {
       this.showTextInicial = true;
     }
@@ -57,25 +57,33 @@ export class HomeComponent {
 
 
 
-    function comprobateScroll(currentPosition:any, desiredPosition: any): boolean{
+    function comprobateScroll(currentPosition: any, desiredPosition: any): boolean {
       if (currentPosition >= desiredPosition) {
         return true;
       }
 
       return false;
     }
-    
+
   }
 
 
 
-  ngOnInit(){
-    window.scrollTo(0,0)
+  ngOnInit() {
+    window.scrollTo(0, 0)
     this.showTextInicial = true;
+    if (window.innerWidth < 930) {
+      this.showfirstPhoto = true;
+      this.showSecondPhoto = true;
+      this.showThirdPhoto = true;
+      this.showFourthPhoto = true;
+      console.log("entro");
+      
+    }
     this.getScreenSize();
   }
 
-  scrollToInicio(){
+  scrollToInicio() {
     window.scrollTo({
       top: 1250,
       behavior: "smooth",
@@ -83,7 +91,7 @@ export class HomeComponent {
   }
 
 
-  
+
 
 
 
