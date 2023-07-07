@@ -14,7 +14,8 @@ export class HeaderComponent {
   screenHeight: number = 0;
   isChecked: boolean = false;
 
-  desmarcarCheckbox() {
+  desmarcarCheckbox(event: Event) {
+    event.stopPropagation();
     this.isChecked = false;
   }
   

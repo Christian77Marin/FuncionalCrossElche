@@ -98,7 +98,7 @@
 .titulo-resto-inicio span {
     font-size: 30px;
     font-family: "ReemKufiFunBold";
-   
+
 }
 
 
@@ -637,19 +637,19 @@
     }
 
 
-    .primera-foto{
+    .primera-foto {
         margin-bottom: 190px;
     }
 
-    .segunda-foto{
+    .segunda-foto {
         margin-bottom: 240px;
     }
 
-    .tercera-foto{
+    .tercera-foto {
         margin-bottom: 225px;
     }
 
-    .cuarta-foto{
+    .cuarta-foto {
         margin-bottom: 225px;
     }
 
@@ -659,35 +659,83 @@
 }
 
 @media (max-width: 580px) {
-    .primera-foto{
+    .primera-foto {
         margin-bottom: 220px;
     }
 
-    .segunda-foto{
+    .segunda-foto {
         margin-bottom: 270px;
     }
 
-    .tercera-foto{
+    .tercera-foto {
         margin-bottom: 255px;
     }
 
-    .cuarta-foto{
+    .cuarta-foto {
         margin-bottom: 255px;
     }
 
-    .resto-inicio{
+    .resto-inicio {
         height: 2300px;
     }
+
+    .texto-principal {
+        font-size: 35px;
+    }
+
+    .texto-secundario {
+        font-size: 14px;
+        letter-spacing: 6.6px;
+    }
+
 }
 
 
 @media (max-width: 540px) {
-    .primera-foto,.segunda-foto,.tercera-foto,.cuarta-foto{
+
+    .primera-foto,
+    .segunda-foto,
+    .tercera-foto,
+    .cuarta-foto {
         padding-left: 13%;
         padding-right: 13%;
     }
 
-    
+
+}
+
+
+
+
+@media (max-width: 460px) {
+    .titulo-resto-inicio {
+        font-size: 18px;
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .titulo-resto-inicio span {
+        font-size: 26px;
+    }
+
+    .primera-foto {
+        margin-bottom: 240px;
+    }
+
+    .segunda-foto {
+        margin-bottom: 290px;
+    }
+
+    .tercera-foto {
+        margin-bottom: 275px;
+    }
+
+    .cuarta-foto {
+        margin-bottom: 275px;
+    }
+
+
 }
 
 
@@ -697,19 +745,104 @@
 
 
 @media (max-width: 437px) {
-    .primera-foto,.segunda-foto,.tercera-foto,.cuarta-foto{
+
+    .primera-foto,
+    .segunda-foto,
+    .tercera-foto,
+    .cuarta-foto {
         padding-left: 10%;
         padding-right: 10%;
+    }
+
+    .container-inicio {
+        padding-left: 5%;
     }
 
 }
 
 
 @media (max-width: 406px) {
-    .primera-foto,.segunda-foto,.tercera-foto,.cuarta-foto{
+
+    .primera-foto,
+    .segunda-foto,
+    .tercera-foto,
+    .cuarta-foto {
         padding-left: 7%;
         padding-right: 7%;
     }
+
+}
+
+
+@media (max-width: 391px) {
+    .texto-principal {
+        font-size: 30px;
+    }
+
+    .texto-secundario {
+        font-size: 11px;
+        letter-spacing: 6.28px;
+    }
+
+}
+
+
+
+@media (max-width: 380px) {
+
+    .primera-foto .parrafo .titulo-parrafo,
+    .segunda-foto .parrafo .titulo-parrafo,
+    .tercera-foto .parrafo .titulo-parrafo,
+    .cuarta-foto .parrafo .titulo-parrafo {
+        font-size: 25px;
+    }
+
+    .primera-foto {
+        margin-bottom: 260px;
+    }
+
+    .segunda-foto {
+        margin-bottom: 290px;
+    }
+
+    .tercera-foto {
+        margin-bottom: 275px;
+    }
+
+    .cuarta-foto {
+        margin-bottom: 275px;
+    }
+
+    
+
+}
+
+@media (max-width: 374px) {
+
+    .primera-foto .parrafo .titulo-parrafo,
+    .segunda-foto .parrafo .titulo-parrafo,
+    .tercera-foto .parrafo .titulo-parrafo,
+    .cuarta-foto .parrafo .titulo-parrafo {
+        font-size: 25px;
+    }
+
+    .primera-foto {
+        margin-bottom: 280px;
+    }
+
+    .segunda-foto {
+        margin-bottom: 310px;
+    }
+
+    .tercera-foto {
+        margin-bottom: 295px;
+    }
+
+    .cuarta-foto {
+        margin-bottom: 295px;
+    }
+
+    
 
 }
 
@@ -727,6 +860,11 @@
 
         display: none;
 
+    }
+
+    .texto-bienvenida {
+        width: 0px;
+        height: 0px;
     }
 
 }

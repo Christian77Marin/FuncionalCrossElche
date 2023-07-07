@@ -217,10 +217,10 @@ header #logo img:hover {
         align-items: center;
         justify-content: space-between;
         background-color: #00BAF0;
-        background: yellow;
+        background: rgb(255, 239, 0);
 
         color: #5B1F39;
-        height: 70px;
+        height: 30px;
 
         position: fixed;
         top: 0;
@@ -244,7 +244,7 @@ header #logo img:hover {
         padding: 0;
 
         position: absolute;
-        top: 56px;
+        top: 20px;
         margin-top: 50px;
         left: 0;
         flex-direction: column;
@@ -252,7 +252,7 @@ header #logo img:hover {
         justify-content: center;
         align-items: center;
 
-        background-color: yellow;
+        background-color: rgb(255, 239, 0);
       
     }
 
@@ -272,7 +272,9 @@ header #logo img:hover {
         border: 0px solid #333;
         height: 2.5em;
         padding: 0.5em;
+        padding-right: 20px;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      
     }
 
     .menu>li {

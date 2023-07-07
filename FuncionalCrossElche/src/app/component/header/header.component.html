@@ -15,17 +15,17 @@
 
 <section class="top-nav">
     <div class="logo">
-        <a [routerLink]="['/Inicio']"><img src="../assets/img/LogoFuncionalCrossFavicon.png" alt=""></a>
+        <a [routerLink]="['/Inicio']"><img src="../assets/img/LogoFuncionalCrossFaviconNegro.png" alt=""></a>
     </div>
         <input id="menu-toggle" type="checkbox" [(ngModel)]="isChecked"/>
         <label class='menu-button-container' for="menu-toggle">
             <div class='menu-button'></div>
         </label>
     <ul class="menu">
-        <li><a (click)="desmarcarCheckbox()" [routerLink]="['/Inicio']" [routerLinkActive]="['actived2']">Inicio</a></li>
-        <li><a (click)="desmarcarCheckbox()" [routerLink]="['/Instalaciones-Servicios']" [routerLinkActive]="['actived2']">Instalaciones y Servicio</a>
+        <li><a (click)="desmarcarCheckbox($event)" [routerLink]="['/Inicio']" [routerLinkActive]="['actived2']">Inicio</a></li>
+        <li><a (click)="desmarcarCheckbox($event)" [routerLink]="['/Instalaciones-Servicios']" [routerLinkActive]="['actived2']">Instalaciones y Servicio</a>
         </li>
-        <li><a (click)="desmarcarCheckbox()" [routerLink]="['/EntrenadorPersonal']" [routerLinkActive]="['actived2']">Entrenador Personal</a></li>
-        <li><a (click)="desmarcarCheckbox()" [routerLink]="['/Contacto']" [routerLinkActive]="['actived2']">Contacto</a></li>
+        <li><a (click)="desmarcarCheckbox($event)" [routerLink]="['/EntrenadorPersonal']" [routerLinkActive]="['actived2']">Entrenador Personal</a></li>
+        <li><a (click)="desmarcarCheckbox($event)" [routerLink]="['/Contacto']" [routerLinkActive]="['actived2']">Contacto</a></li>
     </ul>
 </section>
