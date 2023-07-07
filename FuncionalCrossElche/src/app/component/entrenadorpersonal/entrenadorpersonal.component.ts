@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-entrenadorpersonal',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./entrenadorpersonal.component.css']
 })
 export class EntrenadorpersonalComponent {
-
+  ngOnInit(){
+    window.scrollTo(0, 0)
+  }
 }

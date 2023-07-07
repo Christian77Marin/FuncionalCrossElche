@@ -77,8 +77,6 @@ export class HomeComponent {
       this.showSecondPhoto = true;
       this.showThirdPhoto = true;
       this.showFourthPhoto = true;
-      console.log("entro");
-      
     }
     this.getScreenSize();
   }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-instalaciones',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./instalaciones.component.css']
 })
 export class InstalacionesComponent {
-
+  ngOnInit(){
+    window.scrollTo(0, 0)
+  }
 }
