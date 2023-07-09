@@ -9,4 +9,15 @@ export class EntrenadorpersonalComponent {
   ngOnInit(){
     window.scrollTo(0, 0)
   }
+
+
+
+
+  scrollToInicio() {
+    window.scrollTo({
+      top: 1250,
+      behavior: "smooth",
+    })
+  }
+
 }
