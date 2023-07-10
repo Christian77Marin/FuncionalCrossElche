@@ -3,7 +3,7 @@
     width: 100%;
     height: 1070px;
     background-image: url("../../../assets/img/IvanFotoBackground2.png");
-    background-position: -264px -36px;
+    background-position: -264px -196px;
     background-size: 2000px;
     background-repeat: no-repeat;
 
@@ -109,4 +109,426 @@
     height: 100px;
 
     background-color: rgb(238, 236, 236);
+}
+
+.container-ivan{
+    display:grid;
+    grid-template-columns: 500px 1fr;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+
+
+.img-container-ivan img{
+    width: 400px;
+    box-shadow:
+  0px 3.2px 2.2px rgba(0, 0, 0, 0.02),
+  0px 7.8px 5.3px rgba(0, 0, 0, 0.028),
+  0px 14.7px 10px rgba(0, 0, 0, 0.035),
+  0px 26.1px 17.9px rgba(0, 0, 0, 0.042),
+  0px 48.9px 33.4px rgba(0, 0, 0, 0.05),
+  0px 117px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+.texto-container-ivan .titulo-texto-container-ivan{
+    font-family: AgdasimaBold;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.texto-container-ivan{
+    padding-right: 25%;
+    text-align: justify;
+
+    font-size: 24px;
+}
+
+
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(200%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+.animate-slide-right {
+    animation: slideInFromRight 0.5s ease-out;
+}
+
+.animate-slide {
+    animation: slideInFromLeft 0.5s ease-out;
+}
+
+@media (max-width: 1700px) {
+    .texto-container-ivan{
+        padding-right: 10%;
+        text-align: justify;
+    
+        font-size: 24px;
+    }
+
+}
+
+
+@media (max-width: 1470px) {
+    .container-ivan{
+        padding-left: 100px;
+    }
+
+}
+
+@media (max-width: 1370px) {
+    .container-ivan{
+        padding-left: 50px;
+    }
+
+}
+
+@media (max-width: 1320px) {
+    .texto-container-ivan .titulo-texto-container-ivan{
+        font-size: 25px;
+    }
+
+    .texto-container-ivan{
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media (max-width: 1256px) {
+
+
+    .foto-inicio {
+        background-position: -534px -196px;
+    }
+    .container-inicio{
+        padding-left: 50%;
+    }
+
+}
+
+@media (max-width: 1210px) {
+
+    .container-ivan{
+        grid-template-columns: 440px 1fr;
+    }
+
+
+}
+
+@media (max-width: 1146px) {
+    .texto-container-ivan .titulo-texto-container-ivan{
+        font-size: 22px;
+    }
+ 
+
+}
+
+@media (max-width: 1076px) {
+    .texto-container-ivan .titulo-texto-container-ivan{
+        font-size: 20px;
+    }
+
+    .texto-container-ivan{
+        font-size: 18px;
+    }
+ 
+
+}
+
+
+@media (max-width: 1000px) {
+
+    .container-ivan{
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+        padding-left: 10%;
+        padding-right: 10%;
+        height: 850px;
+    }
+
+    .img-container-ivan{
+        text-align: center;
+    }
+
+    .texto-container-ivan .titulo-texto-container-ivan{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .texto-container-ivan{
+        padding-left: 13%;
+        font-size: 20px;
+    }
+     
+}
+
+
+
+
+@media (max-width: 988px) {
+
+
+   
+    .container-inicio{
+        padding-left: 45%;
+    }
+
+}
+
+
+
+@media (max-width: 851px) {
+    .container-servicios div .texto{
+        font-size: 11px;
+    }
+
+}
+
+
+
+@media (max-width: 888px) {
+
+
+    .foto-inicio{
+        background-position: -604px -116px;
+    }
+   
+    .container-inicio{
+        padding-left: 45%;
+        padding-top: 120px;
+    }
+    .texto-principal{
+        font-size: 38px;
+    }
+    .texto-secundario {
+        letter-spacing: 6.2px;
+    }
+
+    .container-ivan{
+        height: 950px;
+    }
+}
+
+@media (max-width: 720px) {
+
+
+    .container-ivan{
+        grid-template-columns: auto;
+        grid-template-rows: 420px 1fr;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: 1050px;
+    }
+
+  
+}
+
+
+@media (max-width: 700px) {
+
+   
+    .container-inicio{
+        padding-left: 40%;
+       
+    }
+
+
+    .prueba{
+        display:none;
+    }
+
+    .container-servicios{
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+        height: 1000px;
+    }
+
+    .container-servicios div .texto{
+        font-size: 14px;
+    }
+
+    .container-servicios div .img-caja{
+      
+        height: 90px;
+    }
+
+
+    .container-servicios .ultimo-div{
+        padding-bottom: 100px;
+    }
+   
+}
+
+@media (max-width: 654px) {
+
+   
+    .container-inicio{
+        padding-left: 35%;
+       padding-top: 110px;
+    }
+
+    .texto-principal{
+        font-size: 32px;
+    }
+
+    .texto-secundario {
+        letter-spacing: 3.2px;
+    }
+   
+}
+
+@media (max-width: 511px) {
+
+
+    .foto-inicio{
+        background-position: -664px -116px;
+    }
+   
+   
+    .container-inicio{
+        padding-left: 30%;
+       padding-top: 110px;
+    }
+
+   
+}
+
+
+@media (max-width: 484px) {
+
+   
+    .img-container-ivan img{
+       width:350px;
+    }
+
+    .container-ivan{
+       
+        grid-template-rows: 360px 1fr;
+    
+    }
+
+   
+}
+
+
+
+@media (max-width: 475px) {
+
+
+    .foto-inicio{
+        background-position: -664px -116px;
+    }
+   
+   
+    .container-inicio{
+        padding-left: 25%;
+       padding-top: 110px;
+    }
+
+   
+}
+
+@media (max-width: 460px) {
+
+    .container-ivan{
+        height: 1150px;
+        padding-left: 0%;
+    padding-right: 0%;
+    }
+   
+}
+
+
+@media (max-width: 442px) {
+
+
+    .foto-inicio{
+        background-position: -664px -66px;
+    }
+   
+   
+    .container-inicio{
+        padding-left: 20%;
+       padding-top: 110px;
+    }
+
+   
+}
+
+
+
+@media (max-width: 418px) {
+
+   
+    .container-inicio{
+        padding-left: 15%;
+    }
+
+   
+}
+
+
+@media (max-width: 400px) {
+
+   
+    .img-container-ivan img{
+       width:300px;
+    }
+
+    .container-ivan{
+       
+        grid-template-rows: 320px 1fr;
+    
+    }
+
+   
+}
+
+@media (max-width: 392px) {
+
+   
+    .container-inicio{
+        padding-left: 8%;
+    }
+
+   
+}
+
+@media (max-width: 365px) {
+
+   
+    .container-inicio{
+        padding-left: 3%;
+    }
+
+   
 }

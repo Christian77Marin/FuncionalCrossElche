@@ -1,11 +1,11 @@
 <div class="foto-inicio">
     <div class="container-inicio">
         <div class="texto-principal">
-            <p class="animate-slide">IVÁN ALTAMIRANO</p>
+            <p class="animate-slide-right">IVÁN ALTAMIRANO</p>
         </div>
 
         <div class="texto-secundario">
-            <p class="animate-slide">ENTRENADOR PERSONAL</p>
+            <p class="animate-slide-right">ENTRENADOR PERSONAL</p>
         </div>
     </div>
     <svg (click)="scrollToInicio()" xmlns="http://www.w3.org/2000/svg" class="svg" width="48" height="48"
@@ -36,7 +36,7 @@
         </div>
         <div class="texto">4ª mejor marca nacional de todos los tiempos en 100 metros lisos</div>
     </div>
-    <div>
+    <div class="ultimo-div">
         <div class="img-caja">
             <img src="../../../assets/img/banderas.png" alt="">
         </div>
@@ -49,6 +49,19 @@
     <div class="prueba2"></div>
 </div>
 
-<div class="container-ivan">
-    ASDASD
+<div class="container-ivan" >
+    <div class="img-container-ivan animate-slide" *ngIf="showContainerIvan"><img src="../../../assets/img/personal-trainer-photo.jpg" alt="Ivan Altamirano">
+    </div>
+    <div class="texto-container-ivan animate-slide-right" *ngIf="showContainerIvan">
+
+        <div class="titulo-texto-container-ivan">IVÁN ALTAMIRANO, Deportista de Élite y Entrenador Personal</div>
+        Iván Altamirano, un destacado atleta argentino, se introdujo en el mundo del atletismo a los 18 años y se
+        convirtió en un deportista de élite. Durante su carrera, obtuvo el título de campeón nacional de Argentina
+        durante cuatro años consecutivos, representó al país como atleta internacional y estableció la cuarta mejor
+        marca nacional de todos los tiempos en los 100 metros lisos, así como un récord nacional en relevos 4x100.
+        Además de su éxito en el deporte, Iván estudió la ciencia del deporte durante ocho años, especializándose en
+        alto rendimiento deportivo, preparación física y entrenamiento personal. Con más de 12 años de experiencia como
+        entrenador personal, ha ayudado a muchas personas a alcanzar sus metas y marcas personales, convirtiéndose en
+        una inspiración tanto en el atletismo como en el entrenamiento personal.
+    </div>
 </div>
