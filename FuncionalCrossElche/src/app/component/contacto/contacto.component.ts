@@ -12,7 +12,7 @@ export class ContactoComponent {
 
   scrollToInicio() {
     window.scrollTo({
-      top: 1250,
+      top: 920,
       behavior: "smooth",
     })
   }
