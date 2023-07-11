@@ -47,7 +47,7 @@ export class EntrenadorpersonalComponent {
 
   scrollToInicio() {
     window.scrollTo({
-      top: 1250,
+      top: 1000,
       behavior: "smooth",
     })
   }
