@@ -296,6 +296,14 @@
         background-position: -832px -57px; 
     }
 
+    .titulo-contacto{
+        font-size: 25px;
+    }
+
+    .texto-encontrarnos{
+        font-size: 25px;
+    }
+
 }
 
 @media (max-width: 410px) {
