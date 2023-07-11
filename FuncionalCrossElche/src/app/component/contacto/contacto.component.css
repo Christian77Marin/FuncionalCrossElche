@@ -1,0 +1,278 @@
+.foto-inicio {
+
+    width: 100%;
+    height: 1000px;
+    background-image: url("../../../assets/img/contactoPage.jpg");
+    background-position: -111px -57px;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+
+
+}
+
+.svg {
+    position: absolute;
+    top: 90%;
+    right: 50.5%;
+    z-index: 0;
+}
+
+.svg:hover {
+    cursor: pointer;
+}
+
+.container-inicio {
+    padding-top: 200px;
+    text-align: center;
+    padding-left: 3%;
+    height: 800px;
+
+}
+
+.texto-principal {
+    font-size: 48px;
+    font-family: "ReemKufiFunBold";
+
+}
+
+.texto-secundario {
+    padding-left: 3px;
+    font-family: NimbusSans;
+    letter-spacing: 8.5px;
+}
+
+.texto-bienvenida {
+    padding-top: 200px;
+    width: 500px;
+    padding-left: 80px;
+
+    font-size: 20px;
+    font-family: MontserratB;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.container-form-contacto {
+
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(255, 239, 0);
+    color: black;
+}
+
+
+.titulo-contacto {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+
+    font-family: AgdasimaBold;
+    font-size: 30px;
+}
+
+.container-brand-contacto {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.contacto-bloque {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.contacto-bloque img {
+    width: 70px;
+}
+
+.texto-container-contacto {
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+.contacto-bloque a {
+    text-decoration: none;
+    color: black;
+    font-family: "ReemKufiFunBold";
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.div-telefono a {
+    font-size: 17px;
+    font-family: "ReemKufiFunMedium";
+}
+
+.texto-encontrarnos {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+
+    font-family: AgdasimaBold;
+    font-size: 30px;
+}
+
+.iframe iframe {
+    border-radius: 5%;
+    margin-left: 23px;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.iframe {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+
+@media (max-width: 1260px) {
+    .foto-inicio {
+        background-position: -381px -57px; 
+    }
+    
+    .texto-principal{
+        font-size: 48px;
+    }
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+
+    
+    .contacto-bloque {
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        padding-left: 10%;
+        padding-right: 10%;
+
+
+    }
+
+    .contacto-bloque .divcontacto-bloque {
+        padding-top: 60px;
+
+
+    }
+
+    .container-brand-contacto {
+
+        height: 910px;
+
+    }
+
+    .container-form-contacto {
+
+
+        height: 1800px;
+
+    }
+
+
+}
+
+@media (max-width: 914px) {
+    .foto-inicio {
+        background-position: -581px -57px; 
+    }
+    
+    .texto-principal{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 733px) {
+
+    .iframe iframe {
+        width: 500px;
+    }
+
+    .texto-principal{
+        font-size: 35px;
+    }
+
+    
+}
+
+
+@media (max-width: 660px) {
+
+    .texto-principal{
+        font-size: 30px;
+    }
+
+    .foto-inicio {
+        background-position: -701px -57px; 
+    }
+}
+
+
+@media (max-width: 605px) {
+
+    .iframe iframe {
+        width: 400px;
+    }
+}
+
+@media (max-width: 572px) {
+
+    .texto-principal{
+        font-size: 25px;
+    }
+    .foto-inicio {
+        background-position: -772px -57px; 
+    }
+
+}
+
+@media (max-width: 510px) {
+
+    .iframe iframe {
+        width: 300px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 484px) {
+
+    .texto-principal{
+        font-size: 20px;
+    }
+
+    .foto-inicio {
+        background-position: -832px -57px; 
+    }
+
+}
+
+@media (max-width: 410px) {
+
+    .iframe iframe {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 484px) {
+
+    .texto-principal{
+        font-size: 20px;
+    }
+
+}
